@@ -1,0 +1,11 @@
+/* Add border to table rows */
+table.table tbody tr {
+    border: 1px solid yellowgreen;
+  }
+  
+  /* Add border to table cells */
+  table.table td {
+    border: 1px solid yellowgreen;
+    padding: 5px; /* Add padding for better spacing */
+  }
+  
