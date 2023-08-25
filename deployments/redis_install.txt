@@ -1,0 +1,30 @@
+Install Redis:
+sudo apt install redis-server
+
+
+---
+ Start and Enable Redis:
+
+sudo systemctl start redis-server
+
+
+---
+sudo systemctl enable redis-server
+
+---
+Check Redis Status:
+sudo systemctl status redis-server
+
+
+---
+Basic Redis Configuration
+sudo nano /etc/redis/redis.conf
+
+---
+To ping, access: http://localhost:3053/ping
+To check Redis connection, access: http://localhost:3053/check-redis
+
+---
+AOF Logs (Append-Only File):
+appendonly yes
+

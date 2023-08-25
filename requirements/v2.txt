@@ -1,0 +1,3 @@
+lets support redis storage 
+need to install redis persistance
+need api support save, get  for key 
