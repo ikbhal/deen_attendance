@@ -11,6 +11,9 @@ const client = redis.createClient();
 // Middleware
 app.use(cors());
 
+// use json express body
+app.use(express.json());
+
 app.get('/ping', (req, res) => {
     res.send('pong');
   });
